@@ -20,7 +20,7 @@ export const NewPrograms = () => {
                 </div>
             </div>
             {/* New program cards */}
-            <div className="overflow-scroll">
+            <div className="overflow-auto">
                 <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible w-max">
                     <div className="flex gap-2 sm:gap-5">
                         <Card data={newPrograms[0]} />
