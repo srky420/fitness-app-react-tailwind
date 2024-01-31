@@ -15,17 +15,17 @@ export const NewPrograms = () => {
                         <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold">New Programs</h2>
                     </div>
                     <a href="#" className="px-3 py-2 lg:px-4 lg:py-3 bg-black text-white hover:bg-lime-400 hover:text-black rounded-sm lg:text-lg font-semibold">
-                        Programs <i class="fa-solid fa-arrow-right"></i>
+                        Programs <i className="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
             {/* New program cards */}
             <div className="overflow-auto">
-                <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible w-max">
-                    <div className="flex gap-2 sm:gap-5">
-                        <Card data={newPrograms[0]} />
-                        <Card data={newPrograms[1]} />
-                        <Card data={newPrograms[2]} />
+                <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible">
+                    <div className="flex gap-2 sm:gap-5 w-max xs:w-full *:w-40 xs:*:w-full">
+                        {newPrograms.map((item, index) => (
+                            <Card data={item} key={"newPrograms" + index} />
+                        ))}
                     </div>
                 </div>
             </div>

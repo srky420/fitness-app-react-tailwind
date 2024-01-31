@@ -15,7 +15,7 @@ export const TimeTable = () => {
                 <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible">
                     <table className="table-auto w-full text-sm xl:text-base">
                         <thead>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600 *:text-lime-400 lg:text-lg">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600 *:text-lime-400 lg:text-lg">
                                 <th className="text-nowrap">Time</th>
                                 <th>Monday</th>
                                 <th>Tuesday</th>
@@ -27,7 +27,7 @@ export const TimeTable = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">06:00 am</td>
                                 <td>Yoga</td>
                                 <td>Crossfit</td>
@@ -37,7 +37,7 @@ export const TimeTable = () => {
                                 <td>Cardio</td>
                                 <td>Cardio</td>
                             </tr>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">08:00 am</td>
                                 <td>Crossfit</td>
                                 <td>Boxing</td>
@@ -47,7 +47,7 @@ export const TimeTable = () => {
                                 <td>Bodybuilding</td>
                                 <td>Bodybuilding</td>
                             </tr>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">10:00 am</td>
                                 <td>Bodybuilding</td>
                                 <td>Crossfit</td>
@@ -57,7 +57,7 @@ export const TimeTable = () => {
                                 <td>Free</td>
                                 <td>Free</td>
                             </tr>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">06:00 pm</td>
                                 <td>Cardio</td>
                                 <td>Boxing</td>
@@ -67,7 +67,7 @@ export const TimeTable = () => {
                                 <td>Free</td>
                                 <td>Free</td>
                             </tr>
-                            <tr className="*:py-5 *:px-5 *:border text-center *:border-gray-600">
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">08:00 pm</td>
                                 <td>Boxing</td>
                                 <td>Crossfit</td>
