@@ -1,5 +1,7 @@
 import './App.css';
+import { Footer } from './components/globals/Footer';
 import { Navbar } from './components/globals/Navbar';
+import { Newsletter } from './components/globals/Newsletter';
 import { GridDisplay } from './components/landingPage/GridDisplay';
 import { Hero } from './components/landingPage/Hero';
 import { NewPrograms } from './components/landingPage/NewPrograms';
@@ -21,6 +23,8 @@ function App() {
       <TopTrainers />
       <Pricing />
       <Testimonials />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
