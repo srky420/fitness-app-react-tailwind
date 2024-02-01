@@ -4,7 +4,7 @@ import React from "react";
 // Define component
 export const Footer = () => {
     return (
-        <section className="bg-black bg-opacity-90 text-white">
+        <section className="bg-black bg-opacity-95 text-white mt-auto">
             <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 py-10 lg:py-20">
                 <div className="flex flex-wrap gap-10 justify-around md:justify-between">
                     {/* Brand */}
@@ -29,27 +29,27 @@ export const Footer = () => {
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Quick Links</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Privacy Policy</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">About Us</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Contact Us</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Privacy Policy</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">About Us</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Contact Us</a></li>
                         </ul>
                     </div>
                     {/* Services */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Services</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Community</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Pricing</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Portfolio</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Community</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Pricing</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Portfolio</a></li>
                         </ul>
                     </div>
                     {/* FAQs */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">FAQ</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Payment</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Rules</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-white">Ask Now</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Payment</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Rules</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Ask Now</a></li>
                         </ul>
                     </div>
                 </div>

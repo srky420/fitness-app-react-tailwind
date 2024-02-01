@@ -9,10 +9,17 @@ export const TrainerCard = ({ data }) => {
                 <div className="my-1 text-center">
                     <h2 className="text-sm sm:text-base lg:text-xl font-bold">{data.title}</h2>   
                     <p className="text-xs sm:text-sm lg:text-base mb-1">{data.description}</p>
-                    <div className="text-xl sm:text-2xl flex gap-2 justify-center">
-                        <a href="#" className="hover:text-blue-500"><i className="fa-brands fa-square-x-twitter"></i></a>
-                        <a href="#" className="hover:text-blue-500"><i className="fa-brands fa-square-instagram"></i></a>
-                    </div>
+                    <ul className="flex gap-2 text-sm lg:text-base w-fit mx-auto my-3">
+                        <li>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
     )
