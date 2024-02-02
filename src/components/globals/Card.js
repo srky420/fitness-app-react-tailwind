@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 // Define component
@@ -9,7 +10,7 @@ export const Card = ({ data }) => {
                 <div className="my-1 sm:my-2">
                     <h2 className="text-sm sm:text-base lg:text-xl font-bold mb-1">{data.title}</h2>
                     <p className="text-xs sm:text-sm lg:text-base mb-1">{data.description}</p>
-                    <a href="#" className="text-xs sm:text-sm lg:text-base text-blue-600 hover:text-blue-500">Show More</a>
+                    <Link to={`/programs/${data.id}`} className="text-xs sm:text-sm lg:text-base text-blue-600 hover:text-blue-500">Show More</Link>
                 </div>
             </div>
     )

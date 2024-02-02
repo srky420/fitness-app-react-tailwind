@@ -22,7 +22,7 @@ export const JoinNow = () => {
                 </div>
                 {/* Header */}
                 <div className="mb-2 lg:mb-5">
-                    <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">Send your form</p>
+                    <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">Send Your Form</p>
                     <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold">Join Us Today</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-base mb-5 lg:mb-10">{about.cta}</p>
@@ -41,21 +41,21 @@ export const JoinNow = () => {
                     <div className="grid grid-cols-3 gap-1 sm:gap-2 col-span-2">
                         <div className="w-full h-full">
                             <input type="radio" className="hidden peer" id="basic" name="package" />
-                            <label className="block w-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center h-full" for="basic">
+                            <label className="block w-full h-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center hover:bg-white" for="basic">
                                 <h2 className="text-base xs:text-xl sm:text-2xl lg:text-4xl font-bold mb-3 text-blue-600">Basic</h2>
                                 <h2 className="text-2xl lg:text-3xl font-semibold">$10 <span className="text-base xs:text-lg lg:text-xl">/ Month</span></h2>
                             </label>
                         </div>
                         <div className="w-full">
                             <input type="radio" className="hidden peer" id="standard" name="package" />
-                            <label className="block w-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center" for="standard">
+                            <label className="block w-full h-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center hover:bg-white" for="standard">
                                 <h2 className="text-base xs:text-xl sm:text-2xl lg:text-4xl font-bold mb-3 text-lime-500">Standard</h2>
                                 <h2 className="text-2xl lg:text-3xl font-semibold">$30 <span className="text-base xs:text-lg lg:text-xl">/ Month</span></h2>
                             </label>
                         </div>
                         <div className="w-full">
                             <input type="radio" className="hidden peer" id="premium" name="package" />
-                            <label className="block w-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center" for="premium">
+                            <label className="block w-full h-full p-2 sm:p-5 border-2 rounded-md hover:cursor-pointer group peer-checked:border-lime-500 text-center hover:bg-white" for="premium">
                                 <h2 className="text-base xs:text-xl sm:text-2xl lg:text-4xl font-bold mb-3">
                                     <span className="bg-gradient-to-r from-blue-500 to-lime-500 bg-clip-text text-transparent">Premium</span>
                                 </h2>

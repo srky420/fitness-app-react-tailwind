@@ -12,6 +12,7 @@ import { PricingPage } from './components/pricingPage/PricingPage';
 import { AboutUs } from './components/aboutPage/AboutUs';
 import { ContactPage } from './components/contactPage/ContactPage';
 import { JoinNow } from './components/joinPage/JoinNow';
+import { Program } from './components/programPage/Program';
 
 
 // Define router
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/programs',
         element: <Programs />
+      },
+      {
+        path: '/programs/:programId',
+        element: <Program />
       },
       {
         path: '/trainers',
