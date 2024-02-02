@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 // Define component
@@ -20,9 +20,10 @@ export const Sidebar = () => {
                                  "fixed top-0 left-0 z-40 bg-gray-100 transition-transform shadow-md h-screen w-screen overflow-auto translate-x-full"}>
             {/* Sidebar btns */}
             <div className="flex justify-between m-3">
-                <a className="px-3 py-2 rounded-sm bg-lime-400 bg-opacity-75 hover:bg-lime-300 font-semibold">
-                    Join Now
-                </a>
+                    <Link to={"/join"} onClick={() => setNavToggle(false)} 
+                        className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black">
+                        Join Now
+                    </Link>
                 <button className="text-2xl" onClick={() => setNavToggle(false)}>
                     <i className="fa-solid fa-close"></i>
                 </button>

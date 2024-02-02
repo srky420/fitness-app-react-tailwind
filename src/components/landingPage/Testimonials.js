@@ -7,10 +7,6 @@ export const Testimonials = () => {
 
     const [current, setCurrent] = useState(0);
 
-    const handleChange = () => {
-        setCurrent(prev => prev === 3 ? 0 : prev =+ 1)
-    }
-
     return (
         <section className="py-10 lg:py-20 bg-gray-50">
             {/* Header */}
@@ -29,11 +25,11 @@ export const Testimonials = () => {
                                 <h2 className="text-lg lg:text-xl font-bold mb-1">{item.name}</h2>
                                 <p className="text-xs sm:text-sm lg:text-base mb-1">{item.message}</p>
                                 <p className="text-xs sm:text-sm lg:text-base text-yellow-500 text-end">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
+                                    <i className="fa-solid fa-star"></i>
                                 </p>
                             </div>
                             <div className="absolute top-5 left-5 text-4xl">

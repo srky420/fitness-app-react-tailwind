@@ -54,8 +54,8 @@ export const AboutUs = () => {
                 {/* Why choose us */}
                 <div className="grid sm:grid-cols-2 gap-5 lg:gap-10 p-5 sm:p-10 lg:p-20 bg-black bg-opacity-90 text-white font-light">
                     {about.whyChooseUs.map((item, index) => (
-                        <div className="text-xs lg:text-sm flex gap-5">
-                            <i class="fa-solid fa-braille text-xl lg:text-2xl"></i>
+                        <div className="text-xs lg:text-sm flex gap-5" key={"chooseUs" + index}>
+                            <i className="fa-solid fa-braille text-xl lg:text-2xl"></i>
                             <p>{item}</p>
                         </div>
                     ))}

@@ -18,9 +18,9 @@ export const Navbar = () => {
                 <li><NavLink to={"/about"} className="hover:text-lime-500">About</NavLink></li>
                 <li><NavLink to={"/contact"} className="hover:text-lime-500">Contact</NavLink></li>
                 <li>
-                    <a href="#" className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black">
+                    <Link to={"/join"} className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black">
                         Join Now
-                    </a>
+                    </Link>
                 </li>
             </ul>
             <Sidebar />

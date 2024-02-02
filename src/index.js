@@ -11,6 +11,7 @@ import { Trainers } from './components/trainersPage/Trainers';
 import { PricingPage } from './components/pricingPage/PricingPage';
 import { AboutUs } from './components/aboutPage/AboutUs';
 import { ContactPage } from './components/contactPage/ContactPage';
+import { JoinNow } from './components/joinPage/JoinNow';
 
 
 // Define router
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <ContactPage />
+      },
+      {
+        path: '/join',
+        element: <JoinNow />
       }
     ]
   }
