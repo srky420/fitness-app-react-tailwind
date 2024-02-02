@@ -2,19 +2,35 @@ export const trainers = [
     {
         image: './img/trainers/bodybuilding-trainer.jpg',
         title: 'Todd Myers',
-        description: 'Bodybuilding Coach',
+        specialization: 'Bodybuilding Trainer',
         rating: '5'
     },
     {
         image: './img/trainers/boxing-trainer.jpg',
         title: 'Garry James',
-        description: 'Boxing Coach',
+        specialization: 'Boxing Trainer',
         rating: '5'
     },
     {
         image: './img/trainers/yoga-trainer.jpg',
         title: 'Hailey Paul',
-        description: 'Yoga Instructor',
+        specialization: 'Yoga Instructor',
         rating: '5'
     },
+    {
+        image: './img/trainers/weightloss-trainer.jpg',
+        title: 'David Leiman',
+        specialization: 'Weight Loss Trainer',
+        rating: '5'
+    },
+    {
+        image: './img/trainers/pilates-trainer.jpg',
+        title: 'Sydney Grey',
+        specialization: 'Pilates Trainer'
+    },
+    {
+        image: './img/trainers/crossfit-trainer.jpg',
+        title: 'Jack Carlos',
+        specialization: 'Crossfit Trainer'
+    }
 ]

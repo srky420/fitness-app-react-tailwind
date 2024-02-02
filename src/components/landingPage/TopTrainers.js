@@ -23,7 +23,7 @@ export const TopTrainers = () => {
             <div className="overflow-auto">
                 <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible w-max xs:w-full">
                     <div className="flex gap-2 sm:gap-5">
-                        {trainers.map((item, index) => (
+                        {trainers.slice(0, 3).map((item, index) => (
                             <TrainerCard data={item} key={"trainer" + index} />
                         ))}
                     </div>

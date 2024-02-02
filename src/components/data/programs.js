@@ -15,18 +15,18 @@ export const programs = [
         description: 'Create mindfullness and flexibility with yoga.'
     },
     {
-        image: './img/programs/boxing.jpg',
+        image: './img/programs/weightloss.jpg',
         title: 'Weight Loss',
-        description: 'Get into the best shape of your life.'
+        description: 'Loss weight, burn fat and get into shape.'
     },
     {
-        image: './img/programs/boxing.jpg',
-        title: 'Weights Training',
+        image: './img/programs/bodybuilding.jpg',
+        title: 'Bodybuiling Training',
         description: 'Build strength and muscle through bodybuiling.'
     },
     {
-        image: './img/programs/boxing.jpg',
-        title: 'Weights Training',
-        description: 'Build strength and muscle through bodybuiling.'
+        image: './img/programs/pilates.jpg',
+        title: 'Pilates Training',
+        description: 'Create strong mind and body connection.'
     },
 ]
