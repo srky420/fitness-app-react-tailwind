@@ -1,6 +1,6 @@
 import React from "react";
-import { newPrograms } from "../data/newPrograms";
 import { Card } from "../globals/Card";
+import { programs } from "../data/programs";
 
 
 // Define component
@@ -23,7 +23,7 @@ export const NewPrograms = () => {
             <div className="overflow-auto">
                 <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible">
                     <div className="flex gap-2 sm:gap-5 w-max xs:w-full *:w-40 xs:*:w-full">
-                        {newPrograms.map((item, index) => (
+                        {programs.slice(0, 3).map((item, index) => (
                             <Card data={item} key={"newPrograms" + index} />
                         ))}
                     </div>

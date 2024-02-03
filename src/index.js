@@ -13,6 +13,7 @@ import { AboutUs } from './components/aboutPage/AboutUs';
 import { ContactPage } from './components/contactPage/ContactPage';
 import { JoinNow } from './components/joinPage/JoinNow';
 import { Program } from './components/programPage/Program';
+import { Trainer } from './components/trainersPage/Trainer';
 
 
 // Define router
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/trainers',
         element: <Trainers />
+      },
+      {
+        path: '/trainers/:trainerId',
+        element: <Trainer />
       },
       {
         path: '/pricing',

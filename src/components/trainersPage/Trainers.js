@@ -21,7 +21,7 @@ export const Trainers = () => {
                     &gt;
                     <p>Trainers</p>
                 </div>
-                {/* Program cards */}
+                {/* Trainer cards */}
                 <div className="h-full">
                     <div className="mb-5 lg:mb-10">
                         <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">Browse</p>
