@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 // Define component
 export const Footer = () => {
     return (
-        <section className="bg-black bg-opacity-95 text-white">
-            <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 py-10 lg:py-20">
+        <section className="bg-black bg-opacity-95 text-white font-poppins">
+            <div className="container mx-auto px-2 lg:px-20 xl:px-40 py-10 lg:py-20">
                 <div className="flex flex-wrap gap-10 justify-around md:justify-between">
                     {/* Brand */}
                     <div className="w-full text-center md:text-start md:w-auto">
@@ -14,7 +14,7 @@ export const Footer = () => {
                             <i className="fa-solid fa-dumbbell"></i> FITT
                         </a>
                         <p className="text-gray-200 mb-3 text-sm lg:text-base">Join today to get in the best shape of your life.</p>
-                        <ul className="flex gap-2 *:text-gray-200 text-sm lg:text-base w-fit mx-auto md:mx-0">
+                        <ul className="flex gap-2 *:text-gray-200 text-sm lg:text-base w-fit mx-auto md:mx-0 mb-5">
                             <li>
                                 <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black"><i className="fa-brands fa-x-twitter"></i></a>
                             </li>
@@ -25,6 +25,10 @@ export const Footer = () => {
                                 <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black"><i className="fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
+                        <p className="text-xs lg:text-sm text-gray-100 font-light">Design inspired by: 
+                            <a href="https://www.figma.com/@victorflow" className="underline hover:text-lime-400 ms-1" target="_blank" rel="noreferrer">VictorFlow</a> &
+                            <a href="https://www.figma.com/@jakhongirovv" className="underline hover:text-lime-400 ms-1" target="_blank" rel="noreferrer">jakhongirovv</a>
+                        </p>
                     </div>
                     {/* Quick Links */}
                     <div>
@@ -57,6 +61,9 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className="text-center text-sm py-2 text-gray-200 font-light">
+                &copy; 2024, FITT Fitness and Health Gym
             </div>
         </section>
     )
