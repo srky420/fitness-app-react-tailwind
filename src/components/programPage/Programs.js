@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { programs } from "../data/programs";
 import { Card } from "../globals/Card";
@@ -6,6 +6,11 @@ import { Card } from "../globals/Card";
 
 // Define component
 export const Programs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <section className="font-poppins">
             <div className="w-full h-40 sm:h-60 lg:h-80 relative">

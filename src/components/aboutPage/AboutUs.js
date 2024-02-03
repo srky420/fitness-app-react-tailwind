@@ -39,10 +39,10 @@ export const AboutUs = () => {
                     </div>
                     <div className="w-full h-44 md:h-full rounded-sm relative">
                         <img src="./img/about-img.jpg" alt="about-img" className="w-full h-full object-cover rounded-sm" />
-                        <a href="#"
+                        <Link to={"/join"}
                             className="absolute bottom-5 right-5 px-4 lg:px-6 py-3 lg:py-4 bg-blue-500 hover:bg-blue-400 rounded-sm lg:text-xl font-semibold text-black me-2">
                             Get Started <i className="fa-solid fa-arrow-right"></i>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

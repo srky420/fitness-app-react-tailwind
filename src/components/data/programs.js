@@ -8,7 +8,7 @@ export const programs = [
         level: 'Advanced',
         duration: '60 minutes',
         frequency: "4 sessions per week",
-        enrolled: '2,000 People',
+        enrolled: '50 People',
         benefits: [
             "Total-body conditioning",
             "Improved agility and flexibility",
@@ -24,7 +24,7 @@ export const programs = [
         level: 'Advanced',
         duration: '60 minutes',
         frequency: "3 sessions per week",
-        enrolled: '6,000 People',
+        enrolled: '85 People',
         benefits: [
             "Improved cardiovascular health",
             "Enhanced coordination and reflexes",
@@ -40,7 +40,7 @@ export const programs = [
         level: 'Advanced',
         duration: '60 minutes',
         frequency: "5 sessions per week",
-        enrolled: '5,000 People',
+        enrolled: '120 People',
         benefits: [
             "Improved flexibility and range of motion",
             "Stress relief and enhanced mental well-being",
@@ -56,7 +56,7 @@ export const programs = [
         level: 'Beginner',
         duration: '45 minutes',
         frequency: "5 sessions per week",
-        enrolled: '9,000 People',
+        enrolled: '145 People',
         benefits: [
             "Customized workout plans for weight management",
             "Nutritional guidance for a balanced lifestyle",
@@ -72,7 +72,7 @@ export const programs = [
         level: 'Advanced',
         duration: '60 minutes',
         frequency: "4 sessions per week",
-        enrolled: '4,000 People',
+        enrolled: '75 People',
         benefits: [
             "Muscle definition and toning",
             "Increased metabolism and calorie burn",
@@ -88,7 +88,7 @@ export const programs = [
         level: 'Beginner',
         duration: '45 minutes',
         frequency: "4 sessions per week",
-        enrolled: '1,500 People',
+        enrolled: '80 People',
         benefits: [
             "Core strength and stability",
             "Improved posture and body awareness",
