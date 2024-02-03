@@ -29,21 +29,21 @@ export const TimeTable = () => {
                         <tbody>
                             <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">06:00 am</td>
-                                <td>Yoga</td>
+                                <td>Pilates</td>
                                 <td>Crossfit</td>
                                 <td>Yoga</td>
                                 <td>Crossfit</td>
                                 <td>Pilates</td>
-                                <td>Cardio</td>
+                                <td>Pilates</td>
                                 <td>Cardio</td>
                             </tr>
                             <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
                                 <td className="text-nowrap">08:00 am</td>
                                 <td>Crossfit</td>
-                                <td>Boxing</td>
+                                <td>Pilates</td>
                                 <td>Crossfit</td>
                                 <td>Yoga</td>
-                                <td>Free</td>
+                                <td>Pilates</td>
                                 <td>Bodybuilding</td>
                                 <td>Bodybuilding</td>
                             </tr>
@@ -52,7 +52,7 @@ export const TimeTable = () => {
                                 <td>Bodybuilding</td>
                                 <td>Crossfit</td>
                                 <td>Bodybuilding</td>
-                                <td>Crossfit</td>
+                                <td>Pilates</td>
                                 <td>Crossfit</td>
                                 <td>Free</td>
                                 <td>Free</td>
@@ -63,7 +63,7 @@ export const TimeTable = () => {
                                 <td>Boxing</td>
                                 <td>Pilates</td>
                                 <td>Bodybuilding</td>
-                                <td>Crossfit</td>
+                                <td>Pilates</td>
                                 <td>Free</td>
                                 <td>Free</td>
                             </tr>
@@ -73,6 +73,16 @@ export const TimeTable = () => {
                                 <td>Crossfit</td>
                                 <td>Yoga</td>
                                 <td>Bodybuilding</td>
+                                <td>Free</td>
+                                <td>Free</td>
+                                <td>Free</td>
+                            </tr>
+                            <tr className="*:sm:py-5 *:py-3 *:px-5 *:border text-center *:border-gray-600">
+                                <td className="text-nowrap">10:00 pm</td>
+                                <td>Bodybuilding</td>
+                                <td>Yoga</td>
+                                <td>Crossfit</td>
+                                <td>Cardio</td>
                                 <td>Free</td>
                                 <td>Free</td>
                                 <td>Free</td>

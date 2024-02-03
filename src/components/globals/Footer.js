@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 // Define component
@@ -29,27 +30,30 @@ export const Footer = () => {
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Quick Links</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Privacy Policy</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">About Us</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Contact Us</a></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Home</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Privacy Policy</Link></li>
+                            <li><Link to={"/about"} className="hover:text-lime-400">About Us</Link></li>
+                            <li><Link to={"/contact"} className="hover:text-lime-400">Contact Us</Link></li>
                         </ul>
                     </div>
                     {/* Services */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Services</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Community</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Pricing</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Portfolio</a></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Join Us</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Community</Link></li>
+                            <li><Link to={"/pricing"} className="hover:text-lime-400">Pricing</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Portfolio</Link></li>
                         </ul>
                     </div>
                     {/* FAQs */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">FAQ</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Payment</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Rules</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="hover:text-lime-400">Ask Now</a></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Schedule</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Payment</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Rules</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400">Ask Now</Link></li>
                         </ul>
                     </div>
                 </div>

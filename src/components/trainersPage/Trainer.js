@@ -43,7 +43,7 @@ export const Trainer = () => {
                             <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">Train With</p>
                             <h2 className="text-xl lg:text-2xl xl:text-4xl font-bold mb-3">{data.title}</h2>
                             <p className="text-sm lg:text-base mb-3 pb-3 border-b">{data.description}</p>
-                            <h3 className="sm:text-lg lg:text-xl font-bold mb-2">Follow {data.title}</h3>
+                            <h3 className="sm:text-lg lg:text-xl font-bold mb-2">Follow {data.title.split(" ")[0]}</h3>
                             <ul className="flex gap-2 text-sm lg:text-base my-3">
                                 <li>
                                     <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-x-twitter"></i></a>

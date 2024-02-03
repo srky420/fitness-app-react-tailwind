@@ -5,18 +5,13 @@ import { programs } from "../data/programs";
 
 // Define component
 export const Program = () => {
-
+    // Param
     const { programId } = useParams();
-
-    // const [data, setData] = useState({});
-
+    
     const data = programs.find((item, index) => item.id === parseInt(programId))
-
-    console.log(programId);
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        // setData(programs.find((item, index) => item.id === parseInt(programId)));
     }, [])
 
     return (

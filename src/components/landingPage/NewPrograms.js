@@ -23,7 +23,7 @@ export const NewPrograms = () => {
             {/* New program cards */}
             <div className="overflow-auto">
                 <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 overflow-visible">
-                    <div className="flex gap-2 sm:gap-5 w-max xs:w-full *:w-40 xs:*:w-full">
+                    <div className="flex gap-2 lg:gap-5 w-max xs:w-full *:w-40 xs:*:w-full">
                         {programs.slice(0, 3).map((item, index) => (
                             <Card data={item} key={"newPrograms" + index} />
                         ))}

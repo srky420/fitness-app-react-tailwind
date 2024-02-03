@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { contact } from "../data/contact";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
@@ -6,6 +6,10 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 // Define component
 export const ContactPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <section className="font-poppins">
