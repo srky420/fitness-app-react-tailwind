@@ -22,7 +22,7 @@ export const Hero = () => {
     }
 
     return (
-        <section className="max-w-[1920px] font-poppins text-white">
+        <section className="w-full font-poppins text-white mx-auto">
             {/* Carousel */}
             {carousel.map((item, index) => 
                 (

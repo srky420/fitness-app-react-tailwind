@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { contact } from "../data/contact";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { ContactForm } from "./ContactForm";
 
 
 // Define component
@@ -68,16 +69,7 @@ export const ContactPage = () => {
                         </div>
                     </div>
                     {/* Send Message */}
-                    <form className="grid grid-cols-2 p-5 xs:p-10 bg-gray-50 rounded-sm gap-2 lg:gap-5 w-full text-sm 2xl:text-base">
-                        <h2 className="text-xl sm:text-2xl 2xl:text-4xl font-bold col-span-2">Leave Us a Message</h2>
-                        <input type="text" className="outline-none border rounded-md p-3" placeholder="Full Name..." />
-                        <input type="email" className="outline-none border rounded-md p-3" placeholder="Email Address..." />
-                        <textarea className="outline-none border rounded-md p-3 resize-none col-span-2" rows={10} placeholder="Message..."></textarea>
-                        <button
-                            className="col-span-2 px-3 lg:px-4 py-2 lg:py-3 border-2 rounded-md lg:text-lg font-semibold bg-white text-black hover:border-lime-400 hover:bg-lime-400">
-                            Send Message <i className="fa-solid fa-paper-plane ms-1"></i>
-                        </button>
-                    </form>
+                    <ContactForm />
                 </div>
             </div>
             <div className="w-full h-60 sm:h-80 lg:h-96">

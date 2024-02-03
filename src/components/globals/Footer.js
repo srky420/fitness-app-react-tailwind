@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 // Define component
 export const Footer = () => {
     return (
-        <section className="bg-black bg-opacity-95 text-white mt-auto">
+        <section className="bg-black bg-opacity-95 text-white">
             <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 py-10 lg:py-20">
                 <div className="flex flex-wrap gap-10 justify-around md:justify-between">
                     {/* Brand */}
