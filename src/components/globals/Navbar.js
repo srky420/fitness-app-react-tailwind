@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Sidebar } from "./Sidebar";
 import { Link, NavLink } from "react-router-dom";
 
 
 // Define component
 export const Navbar = () => {
+
+    const navbar = useRef(null);
+
+    const [dynamic, setDynamic] = useState(false);
+
+    useEffect(() => {
+        window.onscroll = () => {
+            if (window.scrollY > navbar.current.getBoundingClientRect().height) {
+                navbar.current.classList.remove('absolute');
+                navbar.current.classList.add('fixed', 'bg-black', 'shadow-md');
+            }
+            else {
+                navbar.current.classList.add('absolute');
+                navbar.current.classList.remove('fixed', 'bg-black', 'shadow-md');
+            }
+        }
+    })
+
     return (
-        <nav className="flex justify-between items-center p-3 md:p-5 font-poppins max-w-[1920px] mx-auto absolute top-0 left-0 right-0 w-full z-30">
+        <nav className="flex justify-between items-center p-3 md:p-5 font-poppins mx-auto absolute top-0 left-0 right-0 w-full z-30 bg-opacity-95" ref={navbar}>
             <Link to={"/"} className="text-white rounded-sm font-extrabold text-3xl lg:text-4xl">
                 <i className="fa-solid fa-dumbbell"></i> FITT
             </Link>
