@@ -45,7 +45,7 @@ export const GridDisplay = () => {
                     <div className="h-full w-full relative self-end">
                         <img src="./img/grid-img.jpg" alt="gird-img" className="h-60 md:h-128 object-cover w-full object-top rounded-sm" />
                         <Link to={"/join"}
-                            className="absolute bottom-5 left-5 px-4 lg:px-6 py-3 lg:py-4 bg-lime-400 hover:bg-lime-300 rounded-sm lg:text-xl font-semibold text-black me-2">
+                            className="absolute bottom-5 left-5 px-4 lg:px-6 py-3 lg:py-4 bg-lime-400 hover:bg-lime-300 rounded-sm lg:text-xl font-semibold text-black me-2 transition-colors">
                             Get Started <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                     </div>

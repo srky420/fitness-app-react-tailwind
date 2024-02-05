@@ -16,48 +16,48 @@ export const Footer = () => {
                         <p className="text-gray-200 mb-3 text-sm lg:text-base">Join today to get in the best shape of your life.</p>
                         <ul className="flex gap-2 *:text-gray-200 text-sm lg:text-base w-fit mx-auto md:mx-0 mb-5">
                             <li>
-                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black"><i className="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black transition-colors"><i className="fa-brands fa-x-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black"><i className="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black transition-colors"><i className="fa-brands fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black"><i className="fa-brands fa-instagram"></i></a>
+                                <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border border-white bg-transparent hover:bg-white hover:text-black transition-colors"><i className="fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
                         <p className="text-xs lg:text-sm text-gray-100 font-light">Design inspired by: 
-                            <a href="https://www.figma.com/@victorflow" className="underline hover:text-lime-400 ms-1" target="_blank" rel="noreferrer">VictorFlow</a> &
-                            <a href="https://www.figma.com/@jakhongirovv" className="underline hover:text-lime-400 ms-1" target="_blank" rel="noreferrer">jakhongirovv</a>
+                            <a href="https://www.figma.com/@victorflow" className="underline hover:text-lime-400 transition-colors ms-1" target="_blank" rel="noreferrer">VictorFlow</a> &
+                            <a href="https://www.figma.com/@jakhongirovv" className="underline hover:text-lime-400 transition-colors ms-1" target="_blank" rel="noreferrer">jakhongirovv</a>
                         </p>
                     </div>
                     {/* Quick Links */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Quick Links</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><Link to={"/"} className="hover:text-lime-400">Home</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Privacy Policy</Link></li>
-                            <li><Link to={"/about"} className="hover:text-lime-400">About Us</Link></li>
-                            <li><Link to={"/contact"} className="hover:text-lime-400">Contact Us</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Home</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Privacy Policy</Link></li>
+                            <li><Link to={"/about"} className="hover:text-lime-400 transition-colors">About Us</Link></li>
+                            <li><Link to={"/contact"} className="hover:text-lime-400 transition-colors">Contact Us</Link></li>
                         </ul>
                     </div>
                     {/* Services */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">Services</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><Link to={"/"} className="hover:text-lime-400">Join Us</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Community</Link></li>
-                            <li><Link to={"/pricing"} className="hover:text-lime-400">Pricing</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Portfolio</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Join Us</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Community</Link></li>
+                            <li><Link to={"/pricing"} className="hover:text-lime-400 transition-colors">Pricing</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Portfolio</Link></li>
                         </ul>
                     </div>
                     {/* FAQs */}
                     <div>
                         <h2 className="sm:text-lg font-bold mb-3">FAQ</h2>
                         <ul className="*:mb-2 *:text-gray-200 text-sm lg:text-base">
-                            <li><Link to={"/"} className="hover:text-lime-400">Schedule</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Payment</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Rules</Link></li>
-                            <li><Link to={"/"} className="hover:text-lime-400">Ask Now</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Schedule</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Payment</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Rules</Link></li>
+                            <li><Link to={"/"} className="hover:text-lime-400 transition-colors">Ask Now</Link></li>
                         </ul>
                     </div>
                 </div>

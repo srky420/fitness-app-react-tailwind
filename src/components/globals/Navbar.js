@@ -32,14 +32,14 @@ export const Navbar = () => {
                 <i className="fa-solid fa-dumbbell"></i> FITT
             </Link>
             <ul className="gap-5 lg:gap-10 hidden md:flex font-semibold text-white">
-                <li><NavLink to={"/"} className="hover:text-lime-500">Home</NavLink></li>
-                <li><NavLink to={"/programs"} className="hover:text-lime-500">Programs</NavLink></li>
-                <li><NavLink to={"/trainers"} className="hover:text-lime-500">Trainers</NavLink></li>
-                <li><NavLink to={"/pricing"} className="hover:text-lime-500">Pricing</NavLink></li>
-                <li><NavLink to={"/about"} className="hover:text-lime-500">About</NavLink></li>
-                <li><NavLink to={"/contact"} className="hover:text-lime-500">Contact</NavLink></li>
+                <li><NavLink to={"/"} className="hover:text-lime-500 transition-colors">Home</NavLink></li>
+                <li><NavLink to={"/programs"} className="hover:text-lime-500 transition-colors">Programs</NavLink></li>
+                <li><NavLink to={"/trainers"} className="hover:text-lime-500 transition-colors">Trainers</NavLink></li>
+                <li><NavLink to={"/pricing"} className="hover:text-lime-500 transition-colors">Pricing</NavLink></li>
+                <li><NavLink to={"/about"} className="hover:text-lime-500 transition-colors">About</NavLink></li>
+                <li><NavLink to={"/contact"} className="hover:text-lime-500 transition-colors">Contact</NavLink></li>
                 <li>
-                    <Link to={"/join"} className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black">
+                    <Link to={"/join"} className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black transition-colors">
                         Join Now
                     </Link>
                 </li>

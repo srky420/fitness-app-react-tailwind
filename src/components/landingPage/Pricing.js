@@ -32,7 +32,7 @@ export const Pricing = () => {
                                 <li><i className="fa-solid fa-circle-xmark text-red-500 mt-0.5 sm:mt-1"></i> Access to Pool</li>
                                 <li><i className="fa-solid fa-circle-xmark text-red-500 mt-0.5 sm:mt-1"></i> Coach Assistance</li>
                             </ul>
-                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5">
+                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5 transition-colors">
                                 Get Started <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                         </div>
@@ -51,7 +51,7 @@ export const Pricing = () => {
                                 <li><i className="fa-solid fa-circle-xmark text-red-500 mt-0.5 sm:mt-1"></i> Access to Pool</li>
                                 <li><i className="fa-solid fa-circle-xmark text-red-500 mt-0.5 sm:mt-1"></i> Coach Assistance</li>
                             </ul>
-                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5">
+                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5 transition-colors">
                                 Get Started <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                         </div>
@@ -72,7 +72,7 @@ export const Pricing = () => {
                                 <li><i className="fa-solid fa-circle-check text-green-500 mt-0.5 sm:mt-1"></i> Access to Pool</li>
                                 <li><i className="fa-solid fa-circle-check text-green-500 mt-0.5 sm:mt-1"></i> Coach Assistance</li>
                             </ul>
-                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5">
+                            <Link to={"/join"} className="block mx-auto w-fit px-3 py-2 lg:px-4 lg:py-3 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm lg:text-lg font-semibold mt-5 transition-colors">
                                 Get Started <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                         </div>

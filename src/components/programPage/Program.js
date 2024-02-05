@@ -68,7 +68,7 @@ export const Program = () => {
                                     <li key={"benefit" + index}>{item}</li>
                                 ))}
                             </ul>
-                            <Link to={"/join"} className="block w-fit ms-auto px-3 xl:px-6 py-2 xl:py-4 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm xl:text-lg font-semibold">
+                            <Link to={"/join"} className="block w-fit ms-auto px-3 xl:px-6 py-2 xl:py-4 border-2 border-black hover:bg-lime-400 hover:border-lime-400 rounded-sm xl:text-lg font-semibold transition-colors">
                                 Get Started <i className="fa-solid fa-arrow-right"></i>
                             </Link>
                         </div>

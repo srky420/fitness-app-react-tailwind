@@ -21,7 +21,7 @@ export const Sidebar = () => {
             {/* Sidebar btns */}
             <div className="flex justify-between m-3">
                     <Link to={"/join"} onClick={() => setNavToggle(false)} 
-                        className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black">
+                        className="px-5 py-3 rounded-sm bg-lime-400 hover:bg-lime-300 font-semibold text-black transition-colors">
                         Join Now
                     </Link>
                 <button className="text-2xl" onClick={() => setNavToggle(false)}>
@@ -30,12 +30,12 @@ export const Sidebar = () => {
             </div>
             {/* Sidebar links */}
             <ul className="*:mb-8 text-center flex flex-col text-xl justify-center items-center my-10 font-semibold">
-                <li><NavLink to={"/"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>Home</NavLink></li>
-                <li><NavLink to={"/programs"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>Programs</NavLink></li>
-                <li><NavLink to={"/trainers"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>Trainers</NavLink></li>
-                <li><NavLink to={"/pricing"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>Pricing</NavLink></li>
-                <li><NavLink to={"/about"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>About</NavLink></li>
-                <li><NavLink to={"/contact"} className="hover:text-lime-500" onClick={() => setNavToggle(false)}>Contact</NavLink></li>
+                <li><NavLink to={"/"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>Home</NavLink></li>
+                <li><NavLink to={"/programs"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>Programs</NavLink></li>
+                <li><NavLink to={"/trainers"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>Trainers</NavLink></li>
+                <li><NavLink to={"/pricing"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>Pricing</NavLink></li>
+                <li><NavLink to={"/about"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>About</NavLink></li>
+                <li><NavLink to={"/contact"} className="hover:text-lime-500 transition-colors" onClick={() => setNavToggle(false)}>Contact</NavLink></li>
             </ul>
         </div>
     </nav>

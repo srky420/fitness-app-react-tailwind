@@ -15,7 +15,7 @@ export const TopTrainers = () => {
                         <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">Train With</p>
                         <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold">Top Trainers</h2>
                     </div>
-                    <Link to={"/trainers"} className="px-3 py-2 lg:px-4 lg:py-3 bg-black text-white hover:bg-lime-400 hover:text-black rounded-sm lg:text-lg font-semibold">
+                    <Link to={"/trainers"} className="px-3 py-2 lg:px-4 lg:py-3 bg-black text-white hover:bg-lime-400 hover:text-black rounded-sm lg:text-lg font-semibold transition-colors">
                         All Trainers <i className="fa-solid fa-arrow-right"></i>
                     </Link>
                 </div>

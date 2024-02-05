@@ -46,13 +46,13 @@ export const Trainer = () => {
                             <h3 className="sm:text-lg lg:text-xl font-bold mb-2">Follow {data.title.split(" ")[0]}</h3>
                             <ul className="flex gap-2 text-sm lg:text-base my-3">
                                 <li>
-                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-x-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-facebook-f"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-instagram"></i></a>
+                                    <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>

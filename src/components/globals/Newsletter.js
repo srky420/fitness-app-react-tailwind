@@ -11,7 +11,7 @@ export const Newsletter = () => {
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Subscribe to Newsletter</h2>
                     <form className="flex w-full xs:w-96 sm:w-144 px-5">
                         <input type="email" className="rounded-s-full px-5 py-3 bg-black bg-opacity-90 outline-none w-full text-sm sm:text-base" placeholder="Email Address..." />
-                        <button className="font-semibold rounded-e-full px-5 text-black bg-lime-400 hover:bg-lime-300">Subscribe</button>
+                        <button className="font-semibold rounded-e-full px-5 text-black bg-lime-400 hover:bg-lime-300 transition-colors">Subscribe</button>
                     </form>
                 </div>
             </div>

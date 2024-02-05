@@ -14,13 +14,13 @@ export const TrainerCard = ({ data }) => {
                     <p className="text-xs sm:text-sm lg:text-base mb-1">{data.specialization}</p>
                     <ul className="flex gap-2 text-sm lg:text-base w-fit mx-auto my-3">
                         <li>
-                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-x-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black"><i className="fa-brands fa-instagram"></i></a>
+                            <a href="#" className="w-8 h-8 flex justify-center items-center rounded-full border bg-transparent hover:bg-black hover:text-white hover:border-black transition-colors"><i className="fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>

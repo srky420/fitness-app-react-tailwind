@@ -64,7 +64,7 @@ export const JoiningForm = () => {
             <textarea className="outline-none border rounded-md p-3 resize-none focus:border-lime-400 col-span-2" rows={5} placeholder="Other details..."></textarea>
             <hr className="col-span-2" />
             <button
-                className="ms-auto w-fit col-span-2 px-3 lg:px-4 py-2 lg:py-3 my-1 border-2 rounded-md lg:text-lg font-semibold bg-white text-black hover:border-lime-400 hover:bg-lime-400">
+                className="ms-auto w-fit col-span-2 px-3 lg:px-4 py-2 lg:py-3 my-1 border-2 rounded-md lg:text-lg font-semibold bg-white text-black hover:border-lime-400 hover:bg-lime-400 transition-colors">
                 Join Now <i className="fa-solid fa-arrow-right"></i>
             </button>
         </form>
