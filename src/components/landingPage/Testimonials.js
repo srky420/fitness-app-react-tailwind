@@ -10,14 +10,15 @@ export const Testimonials = () => {
     return (
         <section className="py-10 lg:py-20 bg-gray-50">
             {/* Header */}
-            <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40">
+            <div className="container mx-auto font-poppins px-2 lg:px-20 xl:px-40 relative">
                 <div className="mb-3 sm:mb-5">
                     <p className="lg:text-xl border-s-4 text-blue-600 border-blue-600 ps-2 font-semibold sm:mb-1">What People Say</p>
                     <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold">Client Testimonials</h2>
                 </div>
+                {/* Carousel */}
                 {testimonials.map((item, index) => (
                     <div className={index === current ? "block" : "hidden"} key={"testimonial" + index}>
-                        <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 lg:gap-10 justify-center my-5 lg:my-20 border rounded-md p-5 sm:p-10 md:w-fit mx-auto bg-white relative">
+                        <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 lg:gap-10 justify-center my-5 lg:my-10 border rounded-md p-5 sm:p-10 md:w-fit mx-auto bg-white relative">
                             <div className="w-24 h-24 sm:w-36 sm:h-28 md:w-40 md:h-32 lg:w-32 lg:h-32 rounded-full mx-auto">
                                 <img src={item.image} alt="testimonial-img" className="block w-full h-full object-cover rounded-full object-top" />
                             </div>
@@ -36,17 +37,17 @@ export const Testimonials = () => {
                                 <i className="fa-solid fa-quote-left"></i>
                             </div>
                         </div>
-                        <div className="flex justify-center gap-2 text-sm lg:text-base">
-                            {testimonials.map((item, index) => (
-                                <button key={"testimonialIndicator" + index} onClick={() => setCurrent(index)}>
-                                    {current === index ? <i className="fa-solid fa-circle text-lg"></i> : <i className="fa-regular fa-circle"></i>}
-                                </button>
-                            ))}
-                        </div>
                     </div>
                 ))}
-
-               
+                <div className="flex mx-auto gap-2 text-sm lg:text-base w-full lg:w-128">
+                    <button onClick={() => setCurrent(prev => prev === 0 ? testimonials.length - 1 : prev -= 1)} className="hover:opacity-75 me-auto"><i className="fa-solid fa-chevron-left"></i></button>
+                    {testimonials.map((item, index) => (
+                        <button key={"testimonialIndicator" + index} onClick={() => setCurrent(index)}>
+                            {current === index ? <i className="fa-solid fa-circle text-lg"></i> : <i className="fa-regular fa-circle"></i>}
+                        </button>
+                    ))}
+                    <button onClick={() => setCurrent(prev => prev === testimonials.length - 1 ? 0 : prev += 1)} className="hover:opacity-75 ms-auto"><i className="fa-solid fa-chevron-right"></i></button>
+                </div>
             </div>
         </section>
     )

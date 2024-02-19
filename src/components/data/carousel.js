@@ -2,16 +2,19 @@ export const carousel = [
     {
         image: './img/carousel-01.jpg',
         title: 'Build Strength',
-        href: '#'
+        link: 'Bodybuilding',
+        href: '/programs/5'
     },
     {
         image: './img/carousel-02.jpg',
         title: 'Build Stamina',
-        href: '#'
+        link: 'Crossfit',
+        href: '/programs/1'
     },
     {
         image: './img/carousel-03.jpg',
         title: 'Build Flexibility',
-        href: '#'
+        link: 'Yoga',
+        href: '/programs/3'
     },
 ]
